@@ -13,7 +13,8 @@
 <script src="../node_modules/vue/dist/vue.min.js"></script>
 <script src="../dist/vue-components.min.js"></script>
 <script>
-  Vue.use(VueComponents)
+  var { UserAvatar } = VueComponents
+  Vue.use(UserAvatar)
   window.app = new Vue(
   ).$mount('#main')
 </script>

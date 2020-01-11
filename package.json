@@ -37,7 +37,6 @@
   },
   "dependencies": {
     "vue": "^2.6.11",
-    "qrcodejs2": "0.0.2",
-    "@ccint/utils": "^1.0.0"
+    "qrcodejs2": "0.0.2"
   }
 }

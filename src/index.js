@@ -1,9 +1,10 @@
 import UserAvatar from './user-avatar.vue'
+import Qrcode from './qrcode.vue'
 
-const component = {
-  install: function (Vue) {
-    Vue.component('UserAvatar', UserAvatar)
-  }
+UserAvatar.install = Vue => { Vue.component('UserAvatar', UserAvatar) }
+Qrcode.install = Vue => { Vue.component('Qrcode', Qrcode) }
+
+export default {
+  UserAvatar,
+  Qrcode
 }
-
-export default component
